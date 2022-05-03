@@ -4,9 +4,57 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: black;
+}
+
 canvas{
     position: absolute;
     background: black;
     top: 0;
     left:0;
+}
+
+#newDiv{
+    margin-top: 44vh;
+}
+
+#greetingDiv{
+    font-size: 50px;
+    color: White;
+    position: relative;
+    margin-top: 40vh;
+}
+
+#nameSpan{
+    color: #05F2F2;
+}
+
+#aboutMeDiv{
+    background-image: url("./backgroundPhoto.jpg");
+}
+
+#myPhoto{
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 5%;
+}
+
+#aboutMeTitle{
+    padding-top: 100px;
+    color: #05F2F2;
+}
+
+/* change navbar-toggler inside lines color (stroke) */
+.navbar-light span.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='cyan' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* change hamburger button border color */
+.navbar-light button.navbar-toggler {
+    border-color: cyan;
+}
+
+.navText li:hover{
+/*    Add Hover effect for tab text*/
 }
