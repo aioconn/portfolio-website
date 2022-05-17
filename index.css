@@ -68,3 +68,14 @@ body{
 .navText li:hover{
 /*    Add Hover effect for tab text*/
 }
+
+.reveal{
+    position: relative;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+}
